@@ -1,0 +1,25 @@
+.body{
+    background-color: #0000005d;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    position: absolute;
+}
+.cont {
+    background-color: #FFF;
+    min-height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topBar {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+}
